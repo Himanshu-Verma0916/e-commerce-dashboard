@@ -1,0 +1,212 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.navUl{
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  list-style-type: none;
+  background: linear-gradient(rgb(39, 5, 70),rgb(84, 15, 148),rgb(39, 5, 70));
+
+  height: larger;
+  margin-top: 0rem;
+}
+.navUl li{
+  margin: 1rem;
+  box-sizing: border-box;
+}
+.navUl li a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+.footer{
+    display: flex;
+    height:3rem;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0rem;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    /* background: linear-gradient(45deg, black, transparent); */
+    background: linear-gradient(rgb(39, 5, 70),rgb(84, 15, 148),rgb(39, 5, 70));
+    color: #ffffff;
+    width: 100%;
+
+
+}
+
+.signUp,.login,.addProduct{
+  width: 25rem;
+  margin: 0 auto; /* Horizontally center the container */
+  padding: 1rem;
+  /* background-color: #f2eafa; */
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: absolute; /* Use absolute positioning to place it at the center */
+  top: 43%; /* Vertically center */
+  left: 50%; /* Horizontally center */
+  transform: translate(-50%, -50%); /* Offset to perfectly center it */
+}
+
+/* Header styling */
+.signUp h1,.login h1,.addProduct h1,.productList h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #000000;
+  text-decoration: underline;
+}
+
+/* Form styling */
+.form ,.loginForm,.productForm{
+  /* background-color: rgb(244, 236, 247); */
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Label styling */
+.form label,.login lable ,.productForm label{
+  display: block;
+  font-size: 0.9rem;
+  color: #090909;
+  margin-bottom: 8px;
+}
+
+/* Input field styling */
+.form input,.login input,.productForm input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #380f60;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  /* background-color:rgb(244, 236, 247) ; */
+}
+
+/* Button styling */
+.formButton,.login button,.productForm button {
+  background-color: #3c086f;
+  color: #ffffff;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.form button:hover {
+  text-shadow: #000000;
+}
+.logo{
+  text-align: start;
+  height:3.8rem;
+  width: 5rem;
+  border-radius:1%;
+  margin-right: 0;
+  float: inline-start;
+  
+}
+.span{
+  font-size: 0.7rem;
+  color:red;
+  margin:0rem 0rem 0rem 1rem;
+  display: block;
+  visibility: visible !important;
+  z-index: 10;
+}
+.productForm input{
+  margin-bottom:0rem;
+}
+.productList {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.productList ul li{
+  display: inline-block;
+  /* margin:1rem; */
+  padding: 0.7rem;
+  width:10rem;
+  border: 2px solid #380f60;
+}
+.productList ul{
+  margin: 0rem;
+}
+.operation{
+  background-color: #380f60;
+  color:#ffffff;
+  margin:0.1rem;
+  height: 1.3rem;
+  border-radius: 0.2rem;
+}
+
+.operation:hover{
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  border:2px solid #000000
+}
+.productList .updateButton{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.searchInput{
+    height: 2rem;
+    margin: 1rem 0rem 1rem 0rem;
+    width:25rem;
+    border: 2px solid #440b7d;
+    padding-left: .3rem;
+    border-radius: .5rem;
+}
+.searchMessage{
+  color:red;
+}
+
+.profile{
+  height: 10rem;
+    width: 30rem;
+    background-color: rgb(243, 217, 255);
+    display: block;
+    margin: 10rem 0rem 0rem 15rem;
+    padding: 1rem 0rem 0rem 2rem;
+    border-radius: .5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+  
+
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
